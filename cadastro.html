@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="icone/icone32.png">
+</head>
+<body>
+    <header id="topo">
+        <div class="logo">Venha fazer parte da nossa comunidade!</div>
+    
+        <div class="user-buttons">
+            <button><a href="login.html">Login</a></button>
+            <button><a href="cadastro.html">Cadastro</a></button>
+        </div>
+    </header>
+
+    <div class="menu">
+        <ul>
+            <li><a href="inicio.html">Página Inicial</a></li>
+            <li><a href="caes.html">Cães</a></li>
+            <li><a href="gatos.html">Gatos</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="causa.html">Causa animal</a></li>
+            <li><a href="doar.html">Quero ajudar</a></li>
+        </ul>
+    </div>
+
+    <div class="loginbody">
+        <h1 class="cotexto">Faça seu Cadastro</h1>
+        <form method="post" action="">
+            <label>Seu Nome:</label>
+            <input type="text" name="nome" placeholder="Preencha seu nome" maxlength="7" minlength="3" required><br>
+
+            <label>Seu E-mail:</label>
+            <input type="email" name="email" placeholder="Preencha seu e-mail" required><br>
+
+            <label>Sua Senha:</label>
+            <input type="password" name="senha" placeholder="Escolha uma senha" minlength="3" required><br>
+
+            <label>Confirme sua Senha:</label>
+            <input type="password" name="confirma_senha" placeholder="Confirme sua senha" minlength="3" required><br>
+
+            <label>Data de Nascimento:</label>
+            <input type="date" name="data_nascimento" required><br>
+
+            <label>Gênero:</label>
+            <select name="genero" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select><br>
+
+            <button class="loginbotao" type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>

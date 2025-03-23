@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    background-color: #E0FFFF;
+}
+
+
+#banner{
+   
+    background-image: url("imagens/caol.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+
+}
+
+#banner:hover {
+    
+    background-image: url("imagens/caod.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.textoinicial{
+    width: 43%;
+    padding-left: 10%;
+}
+
+.textoinicial h3{
+    text-align: center;
+}
+
+header {
+    background-color: #B0E0E6;
+}
+
+#topo .logo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 58px;
+    color: #000;
+    text-shadow: 2px 2px 6px #fff;
+    letter-spacing: 0.5px;
+    padding: 0.1%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.user-buttons  {
+    width: 10%;
+    position: absolute;
+    right: 15px; 
+    top: 20px;
+    padding: 0.1%;
+}
+
+
+
+
+.menu {
+    float: left;
+    width: 7.5%;
+    background-color: #2f4e52;
+    padding: 4px;
+    min-height: 100vh;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 1px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 17px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu a:hover {
+    background-color:  #B0E0E6;
+    transform: scale(0.99);
+}
+
+
+footer {
+    background-color: #B0E0E6;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.avaliacao {
+    float: left;
+    width: 33%;
+    color: black;
+}
+
+.contato {
+    float: left;
+    width: 33%;
+    color: black;
+
+}
+
+.redessociais {
+    float: left;
+    width: 33%;
+    color: black;
+}
+
+#login-btn,
+#signup-btn {
+    transition: transform 0.3s;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: #D2691E;
+    border-color: #2f4e52;
+}
+
+#login-btn:hover,
+#signup-btn:hover {
+    transform: scale(0.95);
+}
+
+
+
+.loginbody{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("imagens/catdog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.login{
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cotexto{
+    padding: 15px;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.dog{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("imagens/fundodog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cat{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("imagens/fundocat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ajudar{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("imagens/fundoajudar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundocausa{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("imagens/fundocausa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textocausa{
+    width: 85%;
+    padding-left: 12%;
+    font-size: 25px;
+}
+.textocausa h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.textosobre{
+    width: 75%;
+    padding-left: 12%;
+    font-size: 25px;
+}
+.textosobre h2{
+    text-align: center;
+    color: #FF9933;
+    font-size: 25px;
+}
+.textosobre h3{
+    text-align: center;
+    font-size: 16px;
+}
+.textosobre h4{
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+}
+.textosobre ol{
+    line-height: 2.5;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    padding: 8px;
+    margin: 6px 0 20px 0;
+    box-sizing: border-box;
+    border: 1px solid #FF9933;
+    border-radius: 4px;
+}
+
+.loginbotao {
+    background-color: #FF9933;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loginbotao:hover {
+    background-color: #D2691E;
+}
+
+.ajudar{
+    font-size: 20px;
+    width: 88%;
+    padding-left: 12%;
+    text-align: center;
+}
+
+.ajudar h3{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.ajudar h2{
+    text-align: center;
+    color: #00008b;
+}
+
+.dogecat{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    
+ 
+}
+
+.cat-img{
+    float: left;
+    margin: 10px;
+    overflow: hidden; 
+    background-color: #B0E0E6;
+}
+
+.cat-img img{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+
+.animal11{
+    float: left;
+    width: 500px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #B0E0E6;
+}
+.animal11 img{
+    width: 340px;
+    margin: 5px;
+    padding: 2px;
+    border: solid 1px;
+}
+.animal22{
+    float: left;
+    width: 500px;
+    margin: 5px;
+    padding: 2px;
+    background-color: #B0E0E6;
+
+}
+.animal22 img{
+    width: 320px;
+    margin: 5px;
+    padding: 2px;
+    border: solid 1px;
+}
+.animal33{
+    float: left;
+    width: 500px;
+    margin: 5px;
+    padding: 2px;
+    background-color: #B0E0E6;
+}
+.animal33 img{
+    width: 320px;
+    margin: 5px;
+    padding: 2px;
+    border: solid 1px;
+}
+.animal44{
+    float: left;
+    width: 500px;
+    margin: 5px;
+    padding: 2px;
+    background-color: #B0E0E6;
+}
+.animal44 img{
+    width: 300px;
+    margin: 5px;
+    padding: 2px;
+    border: solid 1px;
+}
+.animal55{
+    float: left;
+    width: 500px;
+    margin: 5px;
+    padding: 2px;
+    background-color: #B0E0E6;
+}
+.animal55 img{
+    width: 300px;
+    margin: 5px;
+    padding: 2px;
+    border: solid 1px;
+}
+.animal66{
+    float: left;
+    width: 500px;
+    margin: 5px;
+    padding: 2px;
+    background-color: #B0E0E6;
+}
+.animal66 img{
+    width: 340px;
+    margin: 5px;
+    padding: 2px;
+    border: solid 1px;
+}
